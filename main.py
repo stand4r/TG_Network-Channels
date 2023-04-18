@@ -5,10 +5,9 @@ from loguru import logger
 import asyncio
 
 
-# ---------------------------------- CREATING TELEGRAM CLIENT--------------------------------------------------------
+# ---------------------------------- TELEGRAM CLIENT INF ------------------------------------------------------------
 api_id = 11283879
 api_hash = '82c6793ac822d0ad61d08d3db2f62add'
-client = TelegramClient('Get', api_id, api_hash)
 
 # ------------------------------------ LOGGER -----------------------------------------------------------------------
 logger.add("logs/logs.log", level='DEBUG')
