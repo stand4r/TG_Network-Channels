@@ -149,3 +149,7 @@ with TelegramClient('Get', api_id, api_hash) as client:
                 await asyncio.sleep(e.seconds)
             except Exception as e:
                 log(level=2)
+
+
+    client.start()
+    client.run_until_disconnected()
